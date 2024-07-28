@@ -145,6 +145,30 @@ footer {
     border-color: var(--primary-red);
 }
 
+.custom-btn3 {
+    color: var(--white);
+    background-color: var(--primary-blue);
+    padding: 5px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.custom-btn3:hover,
+.custom-btn3:focus {
+    color: var(--white);
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+}
+
+.custom-btn3:active {
+    color: var(--white);
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+}
+
 /* Navbar */
 /* Initial Navbar Styles 
 .navbar {
@@ -391,10 +415,10 @@ footer {
 }
 
 .team-member img {
-    width: 150px; /* Adjust size as needed */
-    height: 150px; /* Adjust size as needed */
-    object-fit: cover; /* Ensures the image covers the circle */
-    border-radius: 50%; /* Makes the image circular */
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 
 .team-member h5 {
@@ -404,11 +428,23 @@ footer {
 
 .team-member p {
     font-size: 1rem;
-    color: #777; /* Adjust color as needed */
+    color: #777; 
 }
 
 
+/* CONTACT US */
+.contact {
+    width: 80%;
+    padding: 30px 20px;
+}
 
+.custom-input {
+    background-color: var(--light-gray);
+    border: 1px solid var(--gray); 
+    border-radius: 1rem; 
+    color: var(--gray); 
+    padding: 0.5rem 1rem; 
+}
 
 @media (min-width: 768px) {
     h1 {

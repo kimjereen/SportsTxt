@@ -141,6 +141,38 @@ nav {
 }
 
 
+/* Style1 */
+/* CSS for image and container */
+.style1 {
+    padding: 40px; 
+}
+
+.style1 .image-wrapper {
+    width: 90%; 
+    height: 300px; 
+    position: relative; 
+}
+
+.style1 .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.style1 .text-content-right {
+    padding: 20px; 
+    position: relative;
+}
+
+.style1 .col-sm {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* LANDING PAGE */
 .hero {
     position: relative;

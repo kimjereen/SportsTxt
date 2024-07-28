@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-red: #E61A27;
+    --secondary-red: #800E16;
+    --primary-blue: #015CA8;
+    --secondary-blue: #08355B;
+    --light-gray: #F6F6F6;
+    --gray: #888888;
+    --dark-gray: #666666;
+    --black: #000000;
+    --white: #ffffff; 
+
+    --red-gradient: linear-gradient(to right, #E61A27, #800E16);
+}
+
+/* GENERAL */
+html,
+body {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+.red-line {
+    margin: 0;
+    height: 20px;
+    width: 100%;
+    background-color: var(--primary-red);
+}
+
+.blue-line {
+    margin: 0;
+    height: 20px;
+    width: 100%;
+    background-color: var(--primary-blue);
+}
+
+
+/* Custom Button */
+.custom-btn {
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 5px 30px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.custom-btn:hover,
+.custom-btn:focus {
+    color: var(--white);
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.custom-btn:active {
+    color: var(--white);
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+/* Navbar */
+/* Initial Navbar Styles */
+.navbar {
+    background: transparent !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link.active {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* Scrolled Navbar Styles */
+.navbar.scrolled {
+    background: white !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: var(--primary-blue);
+}
+
+.navbar.scrolled .navbar-nav .nav-link.active {
+    color: var(--primary-red);
+    text-decoration: underline;
+}
+
+.navbar.scrolled .navbar-nav .nav-link:hover,
+.navbar.scrolled .navbar-nav .nav-link:focus {
+    color: var(--primary-blue);
+}
+
+
+/* Overlay */
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+
+/* LANDING PAGE */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/hero-banner.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+}
+
+.masthead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    z-index: 2;
+}
+
+
+.cta-block1 {
+    margin: 0;
+    color: var(--white);
+    background: var(--red-gradient);
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}

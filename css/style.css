@@ -358,7 +358,7 @@ footer {
 }
 
 
-/* Features */
+/* FEATURES */
 .sub-hero {
     position: relative;
     width: 100%;
@@ -375,6 +375,38 @@ footer {
     margin: 10px  auto;
     font-size: 1.3rem;
 }
+
+
+/* ABOUT US */
+.full-width-image {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.full-width-image img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
+
+.team-member img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image covers the circle */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.team-member h5 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777; /* Adjust color as needed */
+}
+
 
 
 

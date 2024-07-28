@@ -60,7 +60,7 @@ footer {
     height: auto;
     margin: 0;
     padding: 40px;
-    background: url('../img/footer.jpg') center/cover;
+    background: url('../img/footer.png') center center/cover no-repeat;
 }
 
 .footer-content {
@@ -89,7 +89,7 @@ footer {
 .footer-logo img {
     width: 200px; 
     height: auto; 
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 

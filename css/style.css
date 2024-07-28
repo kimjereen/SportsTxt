@@ -76,7 +76,7 @@ footer {
 
 .footer-links a {
     color: var(--white);
-    margin: 0 30px; 
+    margin: 0 20px; 
     text-decoration: none; 
     font-size: 16px; 
     font-weight: 400;
@@ -357,6 +357,24 @@ footer {
     padding: 100px;
 }
 
+
+/* Features */
+.sub-hero {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url('../img/banner.png') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.centered-text {
+    width: 60%;
+    margin: 10px  auto;
+    font-size: 1.3rem;
+}
 
 
 
